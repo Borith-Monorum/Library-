@@ -1,0 +1,16 @@
+/* .side_bar{
+    display: flex;
+} */
+/* .side_bar .side_left{
+    width: 25%;
+    padding: 0 70px;
+} */
+.side_bar a:hover{
+background-color: #ddd;
+transition: .1s ease-out;
+}
+nav{
+    left: 0;
+    top: 0;
+    position: sticky;
+}
