@@ -9,16 +9,18 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="/dist/css/bootstrap.min.css">
     <script src="/dist/js/bootstrap.esm.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.18.12/babel.min.js" integrity="sha512-AiVzbSxXraEL1ZC5MTLFal3rPCl56WrCIoXdur5U31SQ1byUZzgOnhqGeCFqwD6Owv9Q1DhS82Cpz+Tdym8hjQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
 </head>
 <body>
     <!-- ---------------------------navigation------------------------- -->
-    <nav class="navbar sticky-top navbar-expand-lg bg-success bg-opacity-75">
+    <nav class="navbar sticky-top navbar-expand-lg  bg-opacity-100">
         <div class="container">
      
           <a class="navbar-brand" href="#">
             <img src="/image/R.png" alt="" width="100" height="">
           </a>
-          <div class="" role="search">
+          <div class="" >
            <ul class=" navbar-nav me-auto mb-2 mb-lg-0 fs-5">
             <li class="nav-item mx-3">
                 <a class="nav-link active text-light" href="#home">Home</a>
@@ -32,9 +34,9 @@
       </nav>
     <!--end ----------------------------------navigation-------------------------------- -->
 
-
+<!--! ==================================Main================================= -->
     <div class="side_bar row p-3">
-            <!-- -------------------------------------------Right side bar-------------------------------------- -->
+        <!-- -------------------------------------------Right side bar-------------------------------------- -->
             <div class="side_left col-12 col-sm-5 col-md-3  col-lg-3 px-2 ps-3">
                     <div class="col-12"><a href=""><img src="/image/asp.net-mini-logo.jpg" class="w-100 " alt=""></a></div>   
 
@@ -61,29 +63,106 @@
                     <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET DropDownList</a></div>
                     <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET DataList</a></div>
                     <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET DataGrid</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF User Registration</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Events Handling</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Authentication</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Model Binding</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> HTML Server Controls</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Validation</a></div>
+                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2 "></i> WF User Registration</a></div>
+                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Events Handling</a></div>
+                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Authentication</a></div>
+                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Model Binding</a></div>
+                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> HTML Server Controls</a></div>
+                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Validation</a></div>
                     <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> CompareValidator</a></div>
                     <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> RangeValidator</a></div>
                     <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> RegularExpressionValidator</a></div>
                     <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> RequiredFieldValidator</a></div>
                     <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ValidationSummary</a></div>      
             </div>
-            <!--end-------------------------------------------Right side bar-------------------------------------- -->
+        <!--end-------------------------------------------Right side bar-------------------------------------- -->
 
-      
-        <div class="center col-6">
-          <div class="col-12"><a href=""><img src="/image/asp.net.jpg" alt="" class="w-100 rounded-3"></a></div>
-        </div>
-        <div class="side_right col-3 px-5">
-          <div class="col-12"><a href=""><img src="/image/ads1.gif" class="w-100 px-4 pb-2" alt=""></a></div>
-          <div class="col-12"><a href=""><img src="/image/ads2.gif" class="w-100 px-4 py-2" alt=""></a></div>
-          <div class="col-12"><a href=""><img src="/image/adslong.png" class="w-100 px-4 py-2" alt=""></a></div>
+     
+      <div class="center col-6">
+        <div class="col-12"><a href=""><img src="/image/asp.net.jpg" alt="" class="w-100 rounded-3"></a></div>
+      </div>
+
+       <!-- --------------------------------------------left side bar------------------------------------------------- -->
+      <div class="side_right col-3 px-5 ">
+          <div class="row">              
+                  <div class="col-12 ">            
+                      <div class="pin">	
+                         <a href=""><img src="/image/ads1.gif" class="pb-3" alt=""></a>
+                         <a href=""><img src="/image/ads1.gif" class="pb-3" alt=""></a>               
+                      </div>
+                  </div>      
+          </div>       
+      </div>
+       <!--end --------------------------------------------left side bar------------------------------------------------- -->
+  </div>
+     
+<!--! END============================================Main============================================= -->
+
+    <!-- ---------------------------------------------footer-------------------------------------------- -->
+<footer class=" pt-4 py-0 text-light" style="background-color:#111827;">
+    <div class="d-flex justify-content-center">
+        <div class="text-center">
+            <h2>Download Our Library</h2>
+            <h5>Stay Study With Us</h5>
+            <div class="btn_footer   d-flex flex-column flex-sm-row d-grid   gap-4  pt-4 ">
+                <div class="">
+                    <div class="playstore d-flex    border border-2 rounded-4 text-light px-4">
+                        <img src="/image/playstore.png " class=" img-fluid"    alt="">
+                     <div class=" ms-3 lh-base">
+                        <p class=" m-0">Download on</p>
+                        <p class="fw-semibold fs-4 m-0">Apple Store</p>
+                    </div>
+                </div>
+                </div>       
+   
+
+                <div class="appstore d-flex  border border-2 rounded-4 text-light px-3">
+                    <img src="/image/appstore.png " class=""    alt="">
+                 <div class=" ms-3 lh-base">
+                    <p class=" m-0">Download on</p>
+                    <p class="fw-semibold fs-4 m-0">Apple Store</p>
+                 </div>
+                </div>
+            </div>
         </div>
     </div>
+    <div class="copyright  d-md-flex text-center justify-content-between ">
+        <div class="footer_left ms-3 text-light opacity-50 pt-2"><P>© Copyright by Monorom</P></div>
+        <div class=" footer_right navbar-expand">
+            <ul class="navbar-nav justify-content-center  d-flex gap-2 me-4 " >
+                <li class=""><a class="nav-link py-0 ps-2 pt-2 text-light opacity-50 " href="#">About us</a></li>
+                <li class=" "><a class="nav-link " href="#"> <span class="border-start text-light opacity-100 ps-2 " style="color:white;"></span><span class="text-light opacity-50">Contact us</span> </a></li>
+                <li class=" "><a class="nav-link " href="#"> <span class="border-start ps-2 " style="color: white;"></span> <span class="text-light opacity-50">Contact us</span> </a></li>              
+            </ul>
+        </div>
+    </div>
+</footer>
+    <!--end---------------------------------------------footer-------------------------------------------- -->
 </body>
+<script>
+    //config vars
+const lagAmount = 50;
+const maxSpeed = 100;
+const frameRate = 20;
+const selector = '.pin';
+//code
+let scrollTop = 0;
+let pinTop = 0;
+let lastTime;
+const updatePinPosition = (time) => {
+	if (!lastTime)
+		lastTime = time;
+	let delta = time - lastTime;
+	if (delta >= frameRate){
+		scrollTop = $(window).scrollTop();
+		var move = (scrollTop - pinTop) * delta / (lagAmount + delta);
+		var direction = move === 0 ? 0 : move / Math.abs(move);
+		pinTop = pinTop + Math.min( Math.abs(move), maxSpeed ) * direction;
+		$(selector).css('transform', `translateY(${-move}px`)
+		lastTime = time;
+	}
+	requestAnimationFrame(updatePinPosition);
+}
+requestAnimationFrame(updatePinPosition);
+</script>
 </html>
