@@ -5,12 +5,21 @@
     width: 25%;
     padding: 0 70px;
 } */
+.side_bar a{
+    font-size:15px;
+    font-family: Nunito, sans-serif;
+}
 .side_bar a:hover{
 background-color: #ddd;
 transition: .1s ease-out;
 }
-nav{
+.navbar{
     left: 0;
     top: 0;
     position: sticky;
+}
+.side-right{
+    position: fixed;
+    top: 0;
+    right: 0;
 }
