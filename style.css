@@ -11,14 +11,7 @@
     backface-visibility: hidden;
     box-sizing:border-box;
 }
-.side_bar a{
-    font-size:15px;
-    font-family: Nunito, sans-serif;
-}
-.side_bar a:hover{
-background-color: #ddd;
-transition: .1s ease-out;
-}
+
 .navbar{
 background-color: #005339;
 }
@@ -28,6 +21,15 @@ background-color: #005339;
     right: 0;
 } */
 
+/* --------------------------------------------------main---------------------------------------------- */
+.side_bar a{
+    font-size:15px;
+    font-family: Nunito, sans-serif;
+}
+.side_bar a:hover{
+background-color: #ddd;
+transition: .1s ease-out;
+}
 .side_right{
     position: relative;
     z-index: 0;
@@ -49,6 +51,8 @@ background-color: #005339;
     width: 350px;
     z-index:0;
 }
+/* -End-------------------------------------------------main---------------------------------------------- */
+
 
 /* -----------------------------------------------------Footer----------------------------------------------- */
 footer{
