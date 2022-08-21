@@ -12,6 +12,20 @@
     box-sizing:border-box;
 }
 
+
+
+.side_bar a{
+    font-size:15px;
+    font-family: Nunito, sans-serif;
+}
+.center{
+    font-family: khmer os siemreap;
+}
+.side_bar a:hover{
+background-color: #ddd;
+transition: .1s ease-out;
+}
+
 .navbar{
 background-color: #005339;
 }
@@ -20,6 +34,7 @@ background-color: #005339;
     top: 110px;
     right: 0;
 } */
+
 
 /* --------------------------------------------------main---------------------------------------------- */
 .side_bar a{
@@ -30,6 +45,15 @@ background-color: #005339;
 background-color: #ddd;
 transition: .1s ease-out;
 }
+
+.center h2{
+line-height: 2;
+}
+.center p{
+line-height: 1.6;
+font-size:15px
+}
+/* ---------------------------------right side bar---------------------------------- */
 .side_right{
     position: relative;
     z-index: 0;
@@ -51,7 +75,11 @@ transition: .1s ease-out;
     width: 350px;
     z-index:0;
 }
+
 /* -End-------------------------------------------------main---------------------------------------------- */
+
+/* ---------------------------------right side bar---------------------------------- */
+
 
 
 /* -----------------------------------------------------Footer----------------------------------------------- */
