@@ -27,7 +27,8 @@ transition: .1s ease-out;
 }
 
 .navbar{
-background-color: #005339;
+background-color: #EEEEEE;
+box-shadow: 2px 5px 7px #3333;
 }
  /* .side_bar .side_right{
     position: fixed;
@@ -80,6 +81,7 @@ font-size:17px;
     z-index:0;
 }
 
+
 /* -End-------------------------------------------------main---------------------------------------------- */
 
 /* ---------------------------------right side bar---------------------------------- */
@@ -117,3 +119,26 @@ footer{
     padding: 0;
 }
 /* End -----------------------------------------------------Footer----------------------------------------------- */
+
+
+
+
+
+@media screen and (max-width:768px){
+    .pin{
+        display: none;
+    }
+    .pin a img{
+        width: 100px;
+        z-index:0;
+    }
+}
+@media screen and (max-width:992px){
+    .pin{
+        margin-top:10px;
+    }
+    .pin a img{
+        width: 200px;
+        z-index:0;
+    }
+}
