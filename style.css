@@ -5,30 +5,48 @@
     width: 25%;
     padding: 0 70px;
 } */
+
 *{
     margin: 0;
     padding: 0;
     backface-visibility: hidden;
     box-sizing:border-box;
 }
+:root{
+ --primary--color:#147DC2;
+ --white--black--color: #eee;
+ --text--a: black;
+ /* --secondary--50--color: #ddd; */
+ --dark--color: #fff;
+ --dark--75-color: #DEDEDE;
 
-
-
-.side_bar a{
-    font-size:15px;
-    font-family: Nunito, sans-serif;
 }
-.center{
-    font-family: khmer os siemreap;
-}
-.side_bar a:hover{
-background-color: #ddd;
-transition: .1s ease-out;
+.dark-theme{
+--white--black--color:#222529;
+--text--a: #fff;
+--dark--color: #000;
+--dark--75-color: #1B1E21;
+/* --secondary--color: #222529; */
 }
 
+.nav-link1{
+    
+    text-decoration: none;
+color: var(--text--a);
+}
+.txt{
+  color: var(--text--a);
+  /* background-color: var(--text--a) */
+  
+}
+
+
+i{
+    background-color: transparent;
+}
 .navbar{
-background-color: #EEEEEE;
-box-shadow: 2px 5px 7px #3333;
+    background-color: var(--white--black--color);
+/* box-shadow: 2px 5px 7px #333; */
 }
  /* .side_bar .side_right{
     position: fixed;
@@ -37,16 +55,41 @@ box-shadow: 2px 5px 7px #3333;
 } */
 
 
-/* --------------------------------------------------main---------------------------------------------- */
+/* !--------------------------------------------------main---------------------------------------------- */
+/* =======================Side bar_================== */
+.side_bar{
+    background-color: var(--white--black--color);
+}
+
 .side_bar a{
     font-size:15px;
     font-family: Nunito, sans-serif;
 }
-.side_bar a:hover{
-background-color: #ddd;
-transition: .1s ease-out;
-}
 
+
+
+/* =======================Side bar_================== */
+
+
+            /* --------------------------------left side bar---------------------------- */
+           
+            .side_left .col-12:hover{
+                background-color: var( --dark--75-color);
+                transition: .1s ease-out;
+            }
+            .side_left .col-12{
+                border-bottom:1px solid #ddd;
+                padding: 10px;
+                }
+            /* end --------------------------------left side bar---------------------------- */
+
+
+            /* ------------------------center----------------------- */
+.center{
+    background-color: var(--dark--color);
+    font-family: khmer os siemreap;
+
+}
 .center h2{
 line-height: 2;
 
@@ -55,41 +98,43 @@ line-height: 2;
 line-height: 2;
 font-size:17px;
 }
-.center img{
-    padding: 0 0 20px 0;
-}
-/* ---------------------------------right side bar---------------------------------- */
-.side_right{
-    position: relative;
-    z-index: 0;
-}
 
-.side_right .pin{
-    
-	position: fixed;
-	top: 105px;
-	left: 75%;
-	padding:5px;
-    
-	/* background: red; */
-	box-shadow: 0 1rem 5rem -2rem rgba(black,0.5);
-	transition: transform 100ms linear;
-    z-index:0;
-}
-.pin a img{
-    width: 350px;
-    z-index:0;
-}
+            /* end ------------------------center----------------------- */
 
+            /* ---------------------------------right side bar---------------------------------- */
+            .side_right{
+                background-color: var(--white--black--color);
+                position: relative;
+                z-index: 0;
+            }
 
-/* -End-------------------------------------------------main---------------------------------------------- */
+            .side_right .pin{
+                
+                position: fixed;
+                top: 105px;
+                left: 75%;
+                padding:5px;
+                
+                /* background: red; */
+                box-shadow: 0 1rem 5rem -2rem rgba(black,0.5);
+                transition: transform 100ms linear;
+                z-index:0;
+            }
+            .pin a img{
+                width: 350px;
+                z-index:0;
+            }
+            /* ---------------------------------right side bar---------------------------------- */
+/* ! -End-------------------------------------------------main---------------------------------------------- */
 
-/* ---------------------------------right side bar---------------------------------- */
 
 
 
 /* -----------------------------------------------------Footer----------------------------------------------- */
 footer{
+    /* background-color: #111827; */
+    background-color:#111827;
+    /* background-color: blue; */
     position: relative;
     z-index:5;
 }

@@ -11,10 +11,11 @@
     <script src="/dist/js/bootstrap.esm.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/7.18.12/babel.min.js" integrity="sha512-AiVzbSxXraEL1ZC5MTLFal3rPCl56WrCIoXdur5U31SQ1byUZzgOnhqGeCFqwD6Owv9Q1DhS82Cpz+Tdym8hjQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" ></script>
+    <link rel="stylesheet" href="/darkmode.js">
 </head>
 <body>
     <!-- ---------------------------navigation------------------------- -->
-    <nav class="navbar sticky-top navbar-expand-lg  bg-opacity-100">
+    <nav class="navbar sticky-top navbar-expand-lg  ">
         <div class="container">
      
           <a class="navbar-brand" href="#">
@@ -23,10 +24,16 @@
           <div class="" >
            <ul class=" navbar-nav me-auto mb-2 mb-lg-0 fs-5">                   
             <li class="nav-item mx-3">
-                <a class="nav-link active text-light" href="#home">Home</a>
+                <a class="nav-link1 active " href="#home">Home</a>
             </li>
             <li class="nav-item mx-3">
-                <a class="nav-link text-light" href="#ASP.Net">ASP.net</a>
+                <a class="nav-link1 t" href="#ASP.Net">ASP.net</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link1 " href="#ASP.Net">ASP.net</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link1 " href="#ASP.Net"><img src="/image/moon.png" width="40px" alt="" id="icon"></a>
             </li>
            </ul>
           </div>
@@ -37,55 +44,55 @@
 <!--! ================================================Main============================================= -->
     <div class="side_bar row p-3">
         <!-- -------------------------------------------Right side bar-------------------------------------- -->
-            <div class="side_left col-12 col-sm-5 col-md-3  col-lg-3 px-2 ps-3 " style="background-color:#EEEEEE;">
-                    <div class="col-12"><a href=""><img src="/image/asp.net-mini-logo.jpg" class="w-100 " alt=""></a></div>   
+            <div class="side_left col-12 col-sm-5 col-md-3  col-lg-3 px-2 ps-3 " >
+                    <div class="col"><a href="" class=""><img src="/image/asp.net-mini-logo.jpg" class="w-100 img-fluid mb-1 rounded-3" alt=""></a></div>   
 
-                    <div class="col-12"><a href="#home" class=" nav-link text-light bg-primary border-bottom  p-2 py-3 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Tutorial</a></div>
-                    <div class="col-12"><a href="/Library/ASP.NET_Introduction.html" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Introduction</a></div>
-                    <div class="col-12"><a href="/Library/ASP.NET_Life_Cycle.html" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Life Cycle</a></div>
-                    <div class="col-12"><a href="/Library/ASP.NET_Web_Forms.html" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Web Forms</a></div>
-                    <div class="col-12"><a href="/Library/ASP.NET_WF_Features.html" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET WF Features</a></div>
-                    <div class="col-12"><a href="/Library/ASP.NET_WF_Project.html" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET WF Project</a></div>
-                    <div class="col-12"><a href="/Library/ASP.NET_WF_Example.html" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET WF Example</a></div>
-                    <div class="col-12"><a href="/Library/ASP.NET_Server_Controls.html" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Server Controls</a></div>
-                    <div class="col-12"><a href="#ASP.NET_Label" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Label</a></div>
-                    <div class="col-12"><a href="#ASP.NET_TextBox" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET TextBox</a></div>
-                    <div class="col-12"><a href="#ASP.NET_Button" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Button</a></div>
-                    <div class="col-12"><a href="#ASP.NET_HyperLink" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET HyperLink</a></div>
-                    <div class="col-12"><a href="#ASP.NET_RadioButton" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET RadioButton</a></div>
-                    <div class="col-12"><a href="#ASP.NET_Calender" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Calender</a></div>
-                    <div class="col-12"><a href="#ASP.NET_CheckBox" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET CheckBox</a></div>
-                    <div class="col-12"><a href="#ASP.NET_LinkButton" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET LinkButton</a></div>
-                    <div class="col-12"><a href="ASP.NET_FileUploadMultiple" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET FileUploadMultiple</a></div>
-                    <div class="col-12"><a href="#ASP.NET_FileUpload" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET FileUpload</a></div>
-                    <div class="col-12"><a href="#ASP.NET_Cookie" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Cookie</a></div>
-                    <div class="col-12"><a href="#ASP.NET_Session" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Session</a></div>
-                    <div class="col-12"><a href="#ASP.NET_DropDownList" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET DropDownList</a></div>
-                    <div class="col-12"><a href="#ASP.NET_DataList" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET DataList</a></div>
-                    <div class="col-12"><a href="#ASP.NET_DataGrid" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET DataGrid</a></div>
+                    <div class="col-12 " style="background-color:var(--primary--color);"><a href=" #home" class=" nav-link1 "style="background-color:var(--primary--color); color:white;"><i class="fa-solid fa-arrow-right-long text-light px-2"></i> ASP.NET Tutorial</a></div>
+                    <div class="col-12"><a href="/Library/ASP.NET_Introduction.html" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Introduction</a></div>
+                    <div class="col-12"><a href="/Library/ASP.NET_Life_Cycle.html" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Life Cycle</a></div>
+                    <div class="col-12"><a href="/Library/ASP.NET_Web_Forms.html" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Web Forms</a></div>
+                    <div class="col-12"><a href="/Library/ASP.NET_WF_Features.html" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET WF Features</a></div>
+                    <div class="col-12"><a href="/Library/ASP.NET_WF_Project.html" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET WF Project</a></div>
+                    <div class="col-12"><a href="/Library/ASP.NET_WF_Example.html" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET WF Example</a></div>
+                    <div class="col-12"><a href="/Library/ASP.NET_Server_Controls.html" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Server Controls</a></div>
+                    <div class="col-12"><a href="#ASP.NET_Label" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Label</a></div>
+                    <div class="col-12"><a href="#ASP.NET_TextBox" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET TextBox</a></div>
+                    <div class="col-12"><a href="#ASP.NET_Button" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Button</a></div>
+                    <div class="col-12"><a href="#ASP.NET_HyperLink" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET HyperLink</a></div>
+                    <div class="col-12"><a href="#ASP.NET_RadioButton" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET RadioButton</a></div>
+                    <div class="col-12"><a href="#ASP.NET_Calender" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Calender</a></div>
+                    <div class="col-12"><a href="#ASP.NET_CheckBox" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET CheckBox</a></div>
+                    <div class="col-12"><a href="#ASP.NET_LinkButton" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET LinkButton</a></div>
+                    <div class="col-12"><a href="ASP.NET_FileUploadMultiple" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET FileUploadMultiple</a></div>
+                    <div class="col-12"><a href="#ASP.NET_FileUpload" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET FileUpload</a></div>
+                    <div class="col-12"><a href="#ASP.NET_Cookie" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Cookie</a></div>
+                    <div class="col-12"><a href="#ASP.NET_Session" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Session</a></div>
+                    <div class="col-12"><a href="#ASP.NET_DropDownList" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET DropDownList</a></div>
+                    <div class="col-12"><a href="#ASP.NET_DataList" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET DataList</a></div>
+                    <div class="col-12"><a href="#ASP.NET_DataGrid" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET DataGrid</a></div>
 
-                    <div class="col-12"><a href="/Library/WF_User_Registration.html" class=" nav-link text-success border-bottom  p-2"><i class="fa-solid fa-arrow-right-long px-2 "></i> WF User Registration</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Events Handling</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Authentication</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Model Binding</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> HTML Server Controls</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-success border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Validation</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> CompareValidator</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> RangeValidator</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> RegularExpressionValidator</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> RequiredFieldValidator</a></div>
-                    <div class="col-12"><a href="" class=" nav-link text-dark border-bottom  p-2 "><i class="fa-solid fa-arrow-right-long px-2"></i> ValidationSummary</a></div>      
+                    <div class="col-12"><a href="/Library/WF_User_Registration.html" class=" nav-link1 text-success  "><i class="fa-solid fa-arrow-right-long px-2 "></i> WF User Registration</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1 text-success   "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Events Handling</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1 text-success   "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Authentication</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1 text-success   "><i class="fa-solid fa-arrow-right-long px-2"></i> WF Model Binding</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1 text-success   "><i class="fa-solid fa-arrow-right-long px-2"></i> HTML Server Controls</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1 text-success   "><i class="fa-solid fa-arrow-right-long px-2"></i> ASP.NET Validation</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> CompareValidator</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> RangeValidator</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> RegularExpressionValidator</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> RequiredFieldValidator</a></div>
+                    <div class="col-12"><a href="" class=" nav-link1   "><i class="fa-solid fa-arrow-right-long px-2"></i> ValidationSummary</a></div>      
             </div>
         <!--end-------------------------------------------Right side bar-------------------------------------- -->
 
-     <!--  ---------------------------------------------Lesson---------------------------------- -->
+     <!--  ---------------------------------------------Center---------------------------------- -->
      <div class="center col-6">
-        <div class="col-12"><a href=""><img src="/image/asp.net.jpg" alt="" class="w-100 rounded-3"></a></div>
-        <div class="col-12">
+        <div class="col"><a href=""><img src="/image/asp.net.jpg" alt="" class="w-100 img-fluid  rounded-4  mt-3 px-1"></a></div>
+        <div class="col-12 txt">
             <h1>Welcome to ASP.net</h1>
         </div>
     </div>
-     <!-- END ---------------------------------------------Lesson---------------------------------- -->
+     <!-- END ---------------------------------------------Center---------------------------------- -->
       
 
        <!-- --------------------------------------------left side bar------------------------------------------------- -->
@@ -105,13 +112,13 @@
 <!--! END============================================Main============================================= -->
 
     <!-- ---------------------------------------------footer-------------------------------------------- -->
-<footer class=" pt-4 py-0 text-light" style="background-color:#111827;">
+<footer class=" pt-4 py-0 text-light">
     <div class="d-flex justify-content-center">
         <div class="text-center">
             <h2>Download Our Library</h2>
             <h5>Stay Study With Us</h5>
             <div class="btn_footer   d-flex flex-column flex-sm-row d-grid   gap-4  pt-4 ">               
-                <div class="playstore d-flex    border border-2 rounded-4 text-light px-4" style="cursor:pointer;">
+                <div class="playstore d-flex    border border-2 rounded-4  px-4" style="cursor:pointer;">
                         <img src="/image/playstore.png " class=" img-fluid"    alt="">
                      <div class=" ms-3 lh-base">
                         <p class=" m-0">Download on</p>
@@ -120,7 +127,7 @@
                 </div>       
    
 
-                <div class="appstore d-flex  border border-2 rounded-4 text-light px-3 " style="cursor:pointer;"> 
+                <div class="appstore d-flex  border border-2 rounded-4  px-3 " style="cursor:pointer;"> 
                     <img src="/image/appstore.png " class=""    alt="">
                  <div class=" ms-3 lh-base">
                     <p class=" m-0">Download on</p>
@@ -130,13 +137,13 @@
             </div>
         </div>
     </div>
-    <div class="copyright  d-md-flex text-center justify-content-between ">
-        <div class="footer_left ms-3 text-light opacity-50 pt-2"><P>© Copyright by Monorom</P></div>
+    <div class="copyright  d-md-flex text-center justify-content-between pb-4 ">
+        <div class="footer_left ms-3  opacity-50 pt-2"><p>© Copyright by Monorom</p></div>
         <div class=" footer_right navbar-expand">
             <ul class="navbar-nav justify-content-center  d-flex gap-2 me-4 " >
-                <li class=""><a class="nav-link py-0 ps-2 pt-2 text-light opacity-50 " href="#">About us</a></li>
-                <li class=" "><a class="nav-link " href="#"> <span class="border-start text-light opacity-100 ps-2 " style="color:white;"></span><span class="text-light opacity-50">Contact us</span> </a></li>
-                <li class=" "><a class="nav-link " href="#"> <span class="border-start ps-2 " style="color: white;"></span> <span class="text-light opacity-50">Contact us</span> </a></li>              
+                <li class=""><a class="nav-link py-0 ps-2 pt-2 opacity-50 " href="#">About us</a></li>
+                <li class=" "><a class="nav-link opacity-50" href="#"> <span class="border-start text-light opacity-100 ps-2 "></span><span class="opacity-50">Contact us</span> </a></li>
+                <li class=" "><a class="nav-link opacity-50" href="#"> <span class="border-start ps-2 " style="color: white;"></span> <span class="opacity-50">Contact us</span> </a></li>              
             </ul>
         </div>
     </div>
@@ -144,29 +151,43 @@
     <!--end---------------------------------------------footer-------------------------------------------- -->
 </body>
 <script>
-    //config vars
-const lagAmount = 50;
-const maxSpeed = 100;
-const frameRate = 20;
-const selector = '.pin';
-//code
-let scrollTop = 0;
-let pinTop = 0;
-let lastTime;
-const updatePinPosition = (time) => {
-	if (!lastTime)
-		lastTime = time;
-	let delta = time - lastTime;
-	if (delta >= frameRate){
-		scrollTop = $(window).scrollTop();
-		var move = (scrollTop - pinTop) * delta / (lagAmount + delta);
-		var direction = move === 0 ? 0 : move / Math.abs(move);
-		pinTop = pinTop + Math.min( Math.abs(move), maxSpeed ) * direction;
-		$(selector).css('transform', `translateY(${-move}px`)
-		lastTime = time;
-	}
-	requestAnimationFrame(updatePinPosition);
+        var icon = document.getElementById("icon");
+icon.onclick = function(){
+document.body.classList.toggle("dark-theme");
+    if(document.body.classList.contains("dark-theme")){
+        icon.src = "/image/sun.png"
+    }else{
+icon.src = "/image/moon.png"
+    }
 }
-requestAnimationFrame(updatePinPosition);
+</script>
+
+<script>
+    //config vars
+    const lagAmount = 50;
+    const maxSpeed = 100;
+    const frameRate = 20;
+    const selector = '.pin';
+    //code
+    let scrollTop = 0;
+    let pinTop = 0;
+    let lastTime;
+    const updatePinPosition = (time) => {
+        if (!lastTime)
+            lastTime = time;
+        let delta = time - lastTime;
+        if (delta >= frameRate){
+            scrollTop = $(window).scrollTop();
+            var move = (scrollTop - pinTop) * delta / (lagAmount + delta);
+            var direction = move === 0 ? 0 : move / Math.abs(move);
+            pinTop = pinTop + Math.min( Math.abs(move), maxSpeed ) * direction;
+            $(selector).css('transform', `translateY(${-move}px`)
+            lastTime = time;
+        }
+        requestAnimationFrame(updatePinPosition);
+    }
+    requestAnimationFrame(updatePinPosition);
+
+
 </script>
 </html>
